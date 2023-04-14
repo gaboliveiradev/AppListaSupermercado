@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color:mediumslateblue ;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-cadastro {
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.container-cadastro input[type=text] {
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.lista-produto-single {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h3.price-produto > span {
+    background-color: rgb(14, 184, 133);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.soma-produto {
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
